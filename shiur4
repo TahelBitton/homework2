@@ -1,11 +1,42 @@
 import java.util.Scanner;
+//2
+public class Main
+{
+    public static void main(String[] args) {
+	    Scanner scan = new Scanner(System.in);
+	    String str1=scan.nextLine();
+            int size=str1.length();
+	    System.out.println("the length is :"+ size);
+}
+}
+//3
+import java.util.Scanner;
 
 public class Main
 {
     public static void main(String[] args) {
 	    Scanner scan = new Scanner(System.in);
-	    //1
-	    String str1=scan.nextLine();
-        int size=str1.length();
-		System.out.println("the length is :"+ size);
+	    String string=scan.next();
+		char str2 = string.charAt(0);
+		char str3 = string.charAt(2);
+		if(str2==str3){
+		    System.out.println(true);
+		}
+		else{
+		    System.out.println(false);
+		}
+}
+}
+
+//4
+import java.util.Scanner;
+public class Main
+{
+        String string1=scan.next();
+		char str21 = string1.charAt(0);
+		char str41 = string1.charAt(1);
+		char str31 = string1.charAt(2);
+		System.out.println(str31+""+str41+""+str21);
+
+}
 		
